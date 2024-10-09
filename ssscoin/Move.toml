@@ -1,0 +1,16 @@
+[package]
+name = "exampleContract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+my_addr ="0x01d161b9073efadad3bec144d442e16312238b7ce2838f2d26a5000e74da31ed"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
